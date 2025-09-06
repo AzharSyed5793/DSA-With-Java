@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Operators {
+
+  public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter 'x' value: ");
+    int x = sc.nextInt();
+    System.out.println("enter 'y' value: ");
+    int y = sc.nextInt();
+
+    System.out.println("Addition:"+(x+y));
+    System.out.println("Subtraction:"+(x-y));
+    System.out.println("Multiplication:"+(x*y));
+    System.out.println("division:"+(x/y));
+    System.out.println("Modulo division:"+(x%y));
+    int large = (x>y)?x:y;
+    System.out.println("max number:"+large);
+    System.out.println("postIncrement:"+(x++));
+    System.out.println("postdecrement:"+(x--));
+    System.out.println("preIncrement:"+(++x));
+    System.out.println("precrement:"+(--x));
+    System.out.println("RelationalOperator:"+(x!=y));
+    
+  }
+    
+}
+
+ 
