@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class JavaBasics {
+public class Char{
 
   public static void main(String args[]){
     int n=4;
