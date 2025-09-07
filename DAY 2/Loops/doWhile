@@ -1,0 +1,16 @@
+import java.util.*;
+
+public class JavaBasics {
+
+  public static void main(String args[]){
+    // do-while loop
+    //print number from 1 to 10
+    int counter=0;
+     do{
+      System.out.println("Hello world");
+      counter++;
+     }while(counter<=2);
+     
+  }
+    
+}
